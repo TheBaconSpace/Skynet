@@ -1,5 +1,6 @@
 {
 
-	"token": "bottoken",
+	"discordjs": "https://discord.js.org/#/",
+        "token": "bottoken",
 	"prefix": "!"
 }
