@@ -7,10 +7,10 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'ping') {
+  if (msg.content === config.prefix +'ping') {
     msg.reply('Pong!');
   }
-    if (msg.content === '!bot') {
+    if (msg.content === config.prefix +'!bot') {
     msg.reply(`This Bot Was Made By Bacon_Space And it is made in ${discordjs}`);
     msg.react(":okhand:");
   } //PlaceHolder
