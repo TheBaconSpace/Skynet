@@ -11,7 +11,7 @@ client.on('message', msg => {
     msg.reply('Pong!');
   }
     if (msg.content === config.prefix +'!bot') {
-    msg.reply(`This Bot Was Made By Bacon_Space And it is made in ${discordjs}`);
+    msg.reply(`This Bot Was Made By Bacon_Space And it is made in ${config.discordjs}`);
     msg.react(":okhand:");
   } //PlaceHolder
 });
